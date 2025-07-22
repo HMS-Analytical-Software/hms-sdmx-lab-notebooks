@@ -1,0 +1,1413 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mes:Structure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:str="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF127969</mes:ID>
+    <mes:Test>false</mes:Test>
+    <mes:Prepared>2024-12-04T11:46:37Z</mes:Prepared>
+    <mes:Sender id="Unknown"/>
+    <mes:Receiver id="not_supplied"/>
+  </mes:Header>
+  <mes:Structures>
+    <str:OrganisationSchemes>
+      <str:AgencyScheme urn="urn:sdmx:org.sdmx.infomodel.base.AgencyScheme=SDMX:AGENCIES(1.0)" isExternalReference="false" agencyID="SDMX" id="AGENCIES" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">AGENCIES</com:Name>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).BBK" id="BBK">
+          <com:Name xml:lang="en">Deutsche Bundesbank</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).SDMX" id="SDMX">
+          <com:Name xml:lang="en">SDMX</com:Name>
+          <com:Description xml:lang="en">SDMX is an initiative to foster standards for the exchange of statistical information. It is sponsored by the Bank for International Settlements (BIS), the European Central Bank (ECB), the Statistical Office of the European Union (Eurostat), the International Monetary Fund (IMF), the Organization for Economic Co-Operation and Development (OECD), the United Nations (UN) and the World Bank.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">SDMX Secretariat</com:Name>
+            <str:Department xml:lang="en">SDMX Secretariat</str:Department>
+            <str:Role xml:lang="en">Single entry point for external inquiries</str:Role>
+            <str:URI>http://sdmx.org</str:URI>
+            <str:Email>secretariat@sdmx.org</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).IMF" id="IMF">
+          <com:Name xml:lang="en">International Monetary Fund (IMF)</com:Name>
+          <com:Description xml:lang="en">The IMF works to foster global growth and economic stability. It provides policy advice and financing to members in economic difficulties and also works with developing nations to help them achieve macroeconomic stability and reduce poverty.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">Single point of contact for external inquiries</com:Name>
+            <str:Department xml:lang="en">Statistics Department</str:Department>
+            <str:Role xml:lang="en">Single point of contact for external inquiries</str:Role>
+            <str:URI>http://www.imf.org</str:URI>
+            <str:Email>StatisticsQuery@imf.org</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ESTAT" id="ESTAT">
+          <com:Name xml:lang="en">Statistical Office of the European Union (Eurostat)</com:Name>
+          <com:Description xml:lang="en">Eurostat is the statistical office of the European Union situated in Luxembourg. Its task is to provide the European Union with high quality statistics at European level that enable comparisons between countries and regions. Website: http://ec.europa.eu/eurostat/.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">SDMX Support</com:Name>
+            <str:Department xml:lang="en">Various units involved in SDMX</str:Department>
+            <str:Role xml:lang="en">SDMX Support</str:Role>
+            <str:URI>http://ec.europa.eu/eurostat/</str:URI>
+            <str:Email>estat-support-sdmx@ec.europa.eu</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).UIS" id="UIS">
+          <com:Name xml:lang="en">UNESCO Institute for Statistics (UIS)</com:Name>
+          <com:Description xml:lang="en">The UNESCO Institute for Statistics (UIS) is the statistical office of the United Nations Educational, Scientific and Cultural Organization (UNESCO). The Institute produces the data and methodologies to monitor trends at national and international levels. It delivers comparative data for countries at all stages of development to provide a global perspective on education, science and technology, culture, and communication. The UIS is the official source for the indicators needed to achieve SDG 4–Education 2030 and key targets in science and innovation, culture and communication.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">UNESCO Institute for Statistics (UIS)</com:Name>
+            <str:Department xml:lang="en">UNESCO Institute for Statistics (UIS)</str:Department>
+            <str:Role xml:lang="en">Single entry point for external inquiries</str:Role>
+            <str:URI>http://uis.unesco.org</str:URI>
+            <str:Email>uis.datarequests@unesco.org</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).OECD" id="OECD">
+          <com:Name xml:lang="en">Organisation for Economic Co-operation and Development (OECD)</com:Name>
+          <com:Description xml:lang="en">The mission of the Organisation for Economic Co-operation and Development (OECD) is to promote policies that will improve the economic and social well-being of people around the world.
+
+The OECD provides a forum in which governments can work together to share experiences and seek solutions to common problems. We work with governments to understand what drives economic, social and environmental change. We measure productivity and global flows of trade and investment. We analyse and compare data to predict future trends. We set international standards on a wide range of things, from agriculture and tax to the safety of chemicals.
+
+We look, too, at issues that directly affect the lives of ordinary people, like how much they pay in taxes and social security, and how much leisure time they can take. We compare how different countries’ school systems are readying their young people for modern life, and how different countries’ pension systems will look after their citizens in old age.
+
+Drawing on facts and real-life experience, we recommend policies designed to make the lives of ordinary people better. We work with business, through the Business and Industry Advisory Committee to the OECD, and with labour, through the Trade Union Advisory Committee. We have active contacts as well with other civil society organisations. The common thread of our work is a shared commitment to market economies backed by democratic institutions and focused on the wellbeing of all citizens. Along the way, we also set out to make life harder for the terrorists, tax dodgers, crooked businessmen and others whose actions undermine a fair and open society.</com:Description>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).METATECH" id="METATECH">
+          <com:Name xml:lang="en">Metadata Technology</com:Name>
+          <com:Description xml:lang="en">Provider of consultancy, software, and services to the SDMX community.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">Chris Nelson</com:Name>
+            <str:Department xml:lang="en">Standards</str:Department>
+            <str:Role xml:lang="en">Standards Consultant</str:Role>
+            <str:Telephone>+44 1483 418058</str:Telephone>
+            <str:URI>http://www.metadatatechnology.com</str:URI>
+            <str:URI>http://www.sdmxfusion.com</str:URI>
+            <str:URI>http://registry.sdmxcloud.org</str:URI>
+            <str:URI>http://data.sdmxcloud.org</str:URI>
+            <str:Email>chris.nelson@metadatatechnology.com</str:Email>
+          </str:Contact>
+          <str:Contact>
+            <com:Name xml:lang="en">Matthew Nelson</com:Name>
+            <str:Department xml:lang="en">IT</str:Department>
+            <str:Role xml:lang="en">Software Architect</str:Role>
+            <str:Telephone>+44 1483 418058</str:Telephone>
+            <str:URI>http://sdmxsource.org</str:URI>
+            <str:Email>matt.nelson@metadatatechnology.com</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ILO" id="ILO">
+          <com:Name xml:lang="en">International Labour Organization</com:Name>
+          <com:Description xml:lang="en">The ILO was founded in 1919, in the wake of a destructive war, to pursue a vision based on the premise that universal, lasting peace can be established only if it is based on social justice. The ILO became the first specialized agency of the UN in 1946.
+
+The main aims of the ILO are to promote rights at work, encourage decent employment opportunities, enhance social protection and strengthen dialogue on work-related issues.</com:Description>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).IBGE" id="IBGE">
+          <com:Name xml:lang="en">The Brazilian Institute of Geography and Statistics</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).NG_NSB" id="NG_NSB">
+          <com:Name xml:lang="en">Nigerian National Bureau of Statistics (NBS)</com:Name>
+          <com:Description xml:lang="en">The National Bureau of Statistics Nigeria as the mandate to generate, on a continuous and sustainable basis, socio-economic statistics on all facets of development in Nigeria.</com:Description>
+          <str:Contact>
+            <com:Name xml:lang="en">Lucky OGIDAN</com:Name>
+            <str:Department xml:lang="en">Information and Communication Technology Department</str:Department>
+            <str:Role xml:lang="en">Web Application Manager</str:Role>
+            <str:URI>http://www.nigerianstat.gov.ng</str:URI>
+            <str:Email>feedback@nigerianstat.gov.ng</str:Email>
+            <str:Email>laogidan@nigerianstat.gov.ng</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).GW_INE" id="GW_INE">
+          <com:Name xml:lang="en">National Statistical Institute of Guinea-Bissau - Instituto Nacional de Estatística da Guiné-Bissau (INE)</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).BT_NSB" id="BT_NSB">
+          <com:Name xml:lang="en">Bhutan National Statistics Bureau (NSB)</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).WB" id="WB">
+          <com:Name xml:lang="en">World Bank</com:Name>
+          <str:Contact>
+            <com:Name xml:lang="en">Demo Contact</com:Name>
+            <str:Department xml:lang="en">IT</str:Department>
+            <str:Role xml:lang="en">IT Officer</str:Role>
+            <str:Telephone>+00 111 222 333</str:Telephone>
+            <str:Email>demo@democontact.com</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).IAEG" id="IAEG">
+          <com:Name xml:lang="en">Inter Agency Group</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).BIS" id="BIS">
+          <com:Name xml:lang="en">Bank for International Settlements</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ONS" id="ONS">
+          <com:Name xml:lang="en">Office for National Statistics</com:Name>
+          <str:Contact>
+            <com:Name xml:lang="en">Demo Contact</com:Name>
+            <str:Department xml:lang="en">Statistics</str:Department>
+            <str:Role xml:lang="en">Statistics Officer</str:Role>
+            <str:Telephone>+44 111 222 333</str:Telephone>
+            <str:URI>http://metadatatechnology.com</str:URI>
+            <str:Email>demo@democontact.com</str:Email>
+          </str:Contact>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ECB" id="ECB">
+          <com:Name xml:lang="en">European Central Bank</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).EUROSTAT" id="EUROSTAT">
+          <com:Name xml:lang="en">Eurostat</com:Name>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).MT" id="MT">
+          <com:Name xml:lang="en">Metadata Technology</com:Name>
+          <com:Description xml:lang="en">Metadata Technology</com:Description>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).GCCSTAT" id="GCCSTAT">
+          <com:Name xml:lang="en">Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf</com:Name>
+          <com:Description xml:lang="en">Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf</com:Description>
+        </str:Agency>
+        <str:Agency urn="urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).HMS" id="HMS">
+          <com:Name xml:lang="en">HMS Analytical Software GmbH</com:Name>
+        </str:Agency>
+      </str:AgencyScheme>
+      <str:DataProviderScheme urn="urn:sdmx:org.sdmx.infomodel.base.DataProviderScheme=HMS:DATA_PROVIDERS(1.0)" isExternalReference="false" agencyID="HMS" id="DATA_PROVIDERS" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">DATA_PROVIDERS</com:Name>
+        <str:DataProvider urn="urn:sdmx:org.sdmx.infomodel.base.DataProvider=HMS:DATA_PROVIDERS(1.0).HMS_IT" id="HMS_IT">
+          <com:Name xml:lang="en">HMS IT Service</com:Name>
+        </str:DataProvider>
+      </str:DataProviderScheme>
+    </str:OrganisationSchemes>
+    <str:Dataflows>
+      <str:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=HMS:DF_HMS_BBBK1_M_OU0081(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BBBK1_M_OU0081" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Credits to Banks (MFIs), total</com:Name>
+        <str:Structure>
+          <Ref package="datastructure" agencyID="BBK" id="BBK_BSBBK1" version="1.0" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=HMS:DF_HMS_BISTA(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BISTA" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS BISTA Dataflow</com:Name>
+        <str:Structure>
+          <Ref package="datastructure" agencyID="HMS" id="DS_HMS_BISTA" version="1.0" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+      <str:Dataflow urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=HMS:DF_HMS_BISTA_INPUT(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BISTA_INPUT" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS BISTA Input Dataflow</com:Name>
+        <str:Structure>
+          <Ref package="datastructure" agencyID="HMS" id="DS_HMS_BISTA_INPUT" version="1.0" class="DataStructure"/>
+        </str:Structure>
+      </str:Dataflow>
+    </str:Dataflows>
+    <str:Codelists>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CLA_BBK_COLLECTION(1.0)" isExternalReference="false" agencyID="BBK" id="CLA_BBK_COLLECTION" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Erlaubte Angaben für die Umrechnungsart</com:Name>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CLA_BBK_DECIMALS(1.0)" isExternalReference="false" agencyID="BBK" id="CLA_BBK_DECIMALS" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Erlaubte Dezimalstellenangaben (BBk)</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).0" id="0">
+          <com:Name xml:lang="de">0</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).1" id="1">
+          <com:Name xml:lang="de">1</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).2" id="2">
+          <com:Name xml:lang="de">2</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).3" id="3">
+          <com:Name xml:lang="de">3</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).4" id="4">
+          <com:Name xml:lang="de">4</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).5" id="5">
+          <com:Name xml:lang="de">5</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).6" id="6">
+          <com:Name xml:lang="de">6</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).7" id="7">
+          <com:Name xml:lang="de">7</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).8" id="8">
+          <com:Name xml:lang="de">8</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_DECIMALS(1.0).9" id="9">
+          <com:Name xml:lang="de">9</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CLA_BBK_UNIT_MULT(1.0)" isExternalReference="false" agencyID="BBK" id="CLA_BBK_UNIT_MULT" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Erlaubte Dimensionsangaben (BBk)</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).0" id="0">
+          <com:Name xml:lang="de">Eins</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).1" id="1">
+          <com:Name xml:lang="de">Zehn</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).3" id="3">
+          <com:Name xml:lang="de">Tausend</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).6" id="6">
+          <com:Name xml:lang="de">Millionen</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).9" id="9">
+          <com:Name xml:lang="de">Milliarden</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CLA_BBK_UNIT_MULT(1.0).10" id="10">
+          <com:Name xml:lang="de">Zehn Milliarden</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CL_BBK_ACIP_DENOMINATION(1.0)" isExternalReference="false" agencyID="BBK" id="CL_BBK_ACIP_DENOMINATION" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Bezeichnung</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_ACIP_DENOMINATION(1.0).E" id="E">
+          <com:Name xml:lang="de">Euro</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CL_BBK_BS_REF_SEC(1.0)" isExternalReference="false" agencyID="BBK" id="CL_BBK_BS_REF_SEC" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Kreis der beteiligten Institute</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).A" id="A">
+          <com:Name xml:lang="de">MFIs ohne Zentralnotenbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).BA" id="BA">
+          <com:Name xml:lang="de">Bausparkassen</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).BGD" id="BGD">
+          <com:Name xml:lang="de">MFI ohne Institute mit Rumpfgeschäftsjahr, ohne in Liquidation befindliche Institute, inkl. KfW, ab 1993 inkl. Bausparkassen</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).BS" id="BS">
+          <com:Name xml:lang="de">Banken mit Sonder- Förder- und sonstigen zentralen Unterstützungsaufgaben</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).GB" id="GB">
+          <com:Name xml:lang="de">Großbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).GN" id="GN">
+          <com:Name xml:lang="de">Kreditgenossenschaften</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).GZ" id="GZ">
+          <com:Name xml:lang="de">Genossenschaftliche Zentralbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).KR" id="KR">
+          <com:Name xml:lang="de">Kreditbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).LB" id="LB">
+          <com:Name xml:lang="de">Landesbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).PR" id="PR">
+          <com:Name xml:lang="de">Privatbankiers</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).RB" id="RB">
+          <com:Name xml:lang="de">Regionalbanken und sonstige Kreditbanken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).RE" id="RE">
+          <com:Name xml:lang="de">Banken im Mehrheitsbesitz ausländischer Banken</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).RK" id="RK">
+          <com:Name xml:lang="de">Realkreditinstitute</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).SG1100" id="SG1100">
+          <com:Name xml:lang="de">ESRB Indikatorenset</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).SK" id="SK">
+          <com:Name xml:lang="de">Sparkassen</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).TZ" id="TZ">
+          <com:Name xml:lang="de">Teilzahlungskreditinstitute</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).U" id="U">
+          <com:Name xml:lang="de">Monetäre Finanzinstitute</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).ZVIN" id="ZVIN">
+          <com:Name xml:lang="de">Internetzeitreihen zur Zahlungsverkehrsstatistik</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).ZV00" id="ZV00">
+          <com:Name xml:lang="de">Alle meldepflichtigen Institute der Zahlungsverkehrsstatistik</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_BS_REF_SEC(1.0).ZW" id="ZW">
+          <com:Name xml:lang="de">Zweigstellen ausländischer Banken</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CL_BBK_OBS_STATUS(1.0)" isExternalReference="false" agencyID="BBK" id="CL_BBK_OBS_STATUS" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Wertekennzeichen (BBk)</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).B" id="B">
+          <com:Name xml:lang="de">Bruch</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).C" id="C">
+          <com:Name xml:lang="de">Berechneter Wert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).E" id="E">
+          <com:Name xml:lang="de">Geschätzter Wert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).F" id="F">
+          <com:Name xml:lang="de">Prognosewert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).H" id="H">
+          <com:Name xml:lang="de">Fehlender Wert (Feiertag, Wochenende)</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).I" id="I">
+          <com:Name xml:lang="de">durch Imputation ermittelter Wert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).K" id="K">
+          <com:Name xml:lang="de">Kein Wert vorhanden</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).L" id="L">
+          <com:Name xml:lang="de">Fehlender Wert (data exist but not collected)</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).M" id="M">
+          <com:Name xml:lang="de">Fehlender Wert (data cannot exist)</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).N" id="N">
+          <com:Name xml:lang="de">Nichts vorhanden</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).P" id="P">
+          <com:Name xml:lang="de">Vorläufiger Wert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).R" id="R">
+          <com:Name xml:lang="de">Berichtigter Wert</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_OBS_STATUS(1.0).X" id="X">
+          <com:Name xml:lang="de">Angaben fallen später an</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=BBK:CL_BBK_STD_FREQ(1.0)" isExternalReference="false" agencyID="BBK" id="CL_BBK_STD_FREQ" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Periodizität (BBk)</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).A" id="A">
+          <com:Name xml:lang="de">jährlich</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).D" id="D">
+          <com:Name xml:lang="de">täglich</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).H" id="H">
+          <com:Name xml:lang="de">halbjährlich</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).M" id="M">
+          <com:Name xml:lang="de">monatlich</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).Q" id="Q">
+          <com:Name xml:lang="de">vierteljährlich</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=BBK:CL_BBK_STD_FREQ(1.0).W" id="W">
+          <com:Name xml:lang="de">wöchentlich</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ECB:CL_FREQ(1.0)" isExternalReference="false" agencyID="ECB" id="CL_FREQ" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Frequency code list</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).A" id="A">
+          <com:Name xml:lang="en">Annual</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).B" id="B">
+          <com:Name xml:lang="en">Business</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).D" id="D">
+          <com:Name xml:lang="en">Daily</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).E" id="E">
+          <com:Name xml:lang="en">Event (not supported)</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).H" id="H">
+          <com:Name xml:lang="en">Half-yearly</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).M" id="M">
+          <com:Name xml:lang="en">Monthly</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).N" id="N">
+          <com:Name xml:lang="en">Minutely</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).Q" id="Q">
+          <com:Name xml:lang="en">Quarterly</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).S" id="S">
+          <com:Name xml:lang="en">Half Yearly, semester (value H exists but change to S in 2009, move from H to this new value to be agreed in ESCB context)</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=ECB:CL_FREQ(1.0).W" id="W">
+          <com:Name xml:lang="en">Weekly</com:Name>
+        </str:Code>
+      </str:Codelist>
+      <str:Codelist urn="urn:sdmx:org.sdmx.infomodel.codelist.Codelist=HMS:CL_HMS_BAID_DOM(1.0)" isExternalReference="false" agencyID="HMS" id="CL_HMS_BAID_DOM" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">CL_HMS_BAID_DOM</com:Name>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100001" id="100001">
+          <com:Name xml:lang="en">100001</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100002" id="100002">
+          <com:Name xml:lang="en">100002</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100004" id="100004">
+          <com:Name xml:lang="en">100004</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100005" id="100005">
+          <com:Name xml:lang="en">100005</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100006" id="100006">
+          <com:Name xml:lang="en">100006</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100007" id="100007">
+          <com:Name xml:lang="en">100007</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100008" id="100008">
+          <com:Name xml:lang="en">100008</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100009" id="100009">
+          <com:Name xml:lang="en">100009</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100010" id="100010">
+          <com:Name xml:lang="en">100010</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100011" id="100011">
+          <com:Name xml:lang="en">100011</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100018" id="100018">
+          <com:Name xml:lang="en">100018</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100019" id="100019">
+          <com:Name xml:lang="en">100019</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100029" id="100029">
+          <com:Name xml:lang="en">100029</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100032" id="100032">
+          <com:Name xml:lang="en">100032</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100033" id="100033">
+          <com:Name xml:lang="en">100033</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100034" id="100034">
+          <com:Name xml:lang="en">100034</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100035" id="100035">
+          <com:Name xml:lang="en">100035</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100036" id="100036">
+          <com:Name xml:lang="en">100036</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100037" id="100037">
+          <com:Name xml:lang="en">100037</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100038" id="100038">
+          <com:Name xml:lang="en">100038</com:Name>
+        </str:Code>
+        <str:Code urn="urn:sdmx:org.sdmx.infomodel.codelist.Code=HMS:CL_HMS_BAID_DOM(1.0).100039" id="100039">
+          <com:Name xml:lang="en">100039</com:Name>
+        </str:Code>
+      </str:Codelist>
+    </str:Codelists>
+    <str:Concepts>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=BBK:CS_BBK_BSBBK1(1.0)" isExternalReference="false" agencyID="BBK" id="CS_BBK_BSBBK1" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Bankenstatistik, Bilanzstatistik, BISTA - Inlandsteil (MFI und Nicht-MFI-KI)</com:Name>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_STD_FREQ" id="BBK_STD_FREQ">
+          <com:Name xml:lang="de">Periodizität (BBk)</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CL_BBK_STD_FREQ" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_STD_BBK01_KEYS" id="BBK_STD_BBK01_KEYS">
+          <com:Name xml:lang="de">BBK01-Kennung</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String" maxLength="10"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).TIME_PERIOD" id="TIME_PERIOD">
+          <com:Name xml:lang="de">Zeitpunkt</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).TIME_FORMAT" id="TIME_FORMAT">
+          <com:Name xml:lang="de">Format der Zeitangabe</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).OBS_VALUE" id="OBS_VALUE">
+          <com:Name xml:lang="de">Wert</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).OBS_STATUS" id="OBS_STATUS">
+          <com:Name xml:lang="de">Wertekennzeichen</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CL_BBK_OBS_STATUS" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).OBS_PRE_BREAK" id="OBS_PRE_BREAK">
+          <com:Name xml:lang="de">Wert, den die Zeitreihe ohne den Bruch gehabt hätte</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_TITLE" id="BBK_TITLE">
+          <com:Name xml:lang="de">Titel</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_UNIT" id="BBK_UNIT">
+          <com:Name xml:lang="de">Einheit</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_UNIT_MULT" id="BBK_UNIT_MULT">
+          <com:Name xml:lang="de">Dimension</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CLA_BBK_UNIT_MULT" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_DECIMALS" id="BBK_DECIMALS">
+          <com:Name xml:lang="de">Dezimalstellen</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CLA_BBK_DECIMALS" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COLLECTION" id="BBK_COLLECTION">
+          <com:Name xml:lang="de">Umrechnungsart</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CLA_BBK_COLLECTION" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_GEN" id="BBK_COMM_GEN">
+          <com:Name xml:lang="de">Kommentar</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_GEN_ENG" id="BBK_COMM_GEN_ENG">
+          <com:Name xml:lang="de">Kommentar (englisch)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_SRC" id="BBK_COMM_SRC">
+          <com:Name xml:lang="de">Quelle</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_SRC_ENG" id="BBK_COMM_SRC_ENG">
+          <com:Name xml:lang="de">Quelle (englisch)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_TITLE_ENG" id="BBK_TITLE_ENG">
+          <com:Name xml:lang="de">Titel (englisch)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_METH" id="BBK_COMM_METH">
+          <com:Name xml:lang="de">Hinweise zur Methodik</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_COMM_METH_ENG" id="BBK_COMM_METH_ENG">
+          <com:Name xml:lang="de">Hinweise zur Methodik (englisch)</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).DOKUHINWEIS" id="DOKUHINWEIS">
+          <com:Name xml:lang="de">Hinweise zur Dokumentation</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).PUBLIKATION" id="PUBLIKATION">
+          <com:Name xml:lang="de">Publikation</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).VERAENDERUNGSREIHE" id="VERAENDERUNGSREIHE">
+          <com:Name xml:lang="de">Veränderungsreihe für Transformationen</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).ANWAHLPOSITIONEN" id="ANWAHLPOSITIONEN">
+          <com:Name xml:lang="de">ANWAHLPOSITIONEN</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).WEB_CATEGORY" id="WEB_CATEGORY">
+          <com:Name xml:lang="de">Kategorie</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_GRAPHTITLE" id="BBK_GRAPHTITLE">
+          <com:Name xml:lang="de">Grafiktitel</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_GRAPHTITLE_ENG" id="BBK_GRAPHTITLE_ENG">
+          <com:Name xml:lang="de">Grafiktitel englisch</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_GRAPHPOS" id="BBK_GRAPHPOS">
+          <com:Name xml:lang="de">Grafikposition</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_ID" id="BBK_ID">
+          <com:Name xml:lang="de">Zeitreihenschlüssel</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_EURO" id="BBK_EURO">
+          <com:Name xml:lang="de">Eurowerte</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_DIFF_A" id="BBK_DIFF_A">
+          <com:Name xml:lang="de">Absolute Veränderung zur Vorperiode</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_DIFF" id="BBK_DIFF">
+          <com:Name xml:lang="de">Prozentuale Veränderung zur Vorperiode</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_DIFF_Y_A" id="BBK_DIFF_Y_A">
+          <com:Name xml:lang="de">Absolute Veränderung zum Vorjahr</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_DIFF_Y" id="BBK_DIFF_Y">
+          <com:Name xml:lang="de">Prozentuale Veränderung zum Vorjahr</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_UMR" id="BBK_UMR">
+          <com:Name xml:lang="de">Umrechnungsart</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=BBK:CS_BBK_BSBBK1(1.0).BBK_UMR_ENG" id="BBK_UMR_ENG">
+          <com:Name xml:lang="de">Umrechnungsart englisch</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+      <str:ConceptScheme urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=HMS:HMS_CONCEPTS(1.0)" isExternalReference="false" agencyID="HMS" id="HMS_CONCEPTS" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS_CONCEPTS</com:Name>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).BAID_DOM" id="BAID_DOM">
+          <com:Name xml:lang="en">BAID_DOM</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="HMS" id="CL_HMS_BAID_DOM" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+            <str:EnumerationFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).DATE" id="DATE">
+          <com:Name xml:lang="en">DATE</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="ObservationalTimePeriod"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).OBS_VALUE" id="OBS_VALUE">
+          <com:Name xml:lang="en">Observation value</com:Name>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).BS_REF_SEC" id="BS_REF_SEC">
+          <com:Name xml:lang="en">Reference sector breakdown</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CL_BBK_BS_REF_SEC" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+            <str:EnumerationFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).ACIP_DENOMINATION" id="ACIP_DENOMINATION">
+          <com:Name xml:lang="en">Denomination</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="BBK" id="CL_BBK_ACIP_DENOMINATION" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+            <str:EnumerationFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).YEAR" id="YEAR">
+          <com:Name xml:lang="en">Year</com:Name>
+          <str:CoreRepresentation>
+            <str:TextFormat isSequence="false" textType="GregorianYear"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+        <str:Concept urn="urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=HMS:HMS_CONCEPTS(1.0).FREQUENCY" id="FREQUENCY">
+          <com:Name xml:lang="en">Frequency</com:Name>
+          <str:CoreRepresentation>
+            <str:Enumeration>
+              <Ref package="codelist" agencyID="ECB" id="CL_FREQ" version="1.0" class="Codelist"/>
+            </str:Enumeration>
+            <str:EnumerationFormat textType="String"/>
+          </str:CoreRepresentation>
+        </str:Concept>
+      </str:ConceptScheme>
+    </str:Concepts>
+    <str:DataStructures>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=BBK:BBK_BSBBK1(1.0)" isExternalReference="false" agencyID="BBK" id="BBK_BSBBK1" isFinal="false" version="1.0">
+        <com:Name xml:lang="de">Bankenstatistik, Bilanzstatistik, BISTA - Inlandsteil (MFI und Nicht-MFI-KI)</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=BBK:BBK_BSBBK1(1.0).DimensionDescriptor" id="DimensionDescriptor">
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=BBK:BBK_BSBBK1(1.0).BBK_STD_FREQ" id="BBK_STD_FREQ" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_STD_FREQ" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CL_BBK_STD_FREQ" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat minLength="1" textType="String" maxLength="1"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=BBK:BBK_BSBBK1(1.0).BBK_STD_BBK01_KEYS" id="BBK_STD_BBK01_KEYS" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_STD_BBK01_KEYS" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat pattern="[A-Z0-9]{1,10}" textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=BBK:BBK_BSBBK1(1.0).TIME_PERIOD" id="TIME_PERIOD" position="3">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="TIME_PERIOD" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:AttributeList urn="urn:sdmx:org.sdmx.infomodel.datastructure.AttributeDescriptor=BBK:BBK_BSBBK1(1.0).AttributeDescriptor" id="AttributeDescriptor">
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).TIME_FORMAT" assignmentStatus="Conditional" id="TIME_FORMAT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="TIME_FORMAT" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).OBS_STATUS" assignmentStatus="Conditional" id="OBS_STATUS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="OBS_STATUS" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CL_BBK_OBS_STATUS" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat minLength="1" textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).OBS_PRE_BREAK" assignmentStatus="Conditional" id="OBS_PRE_BREAK">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="OBS_PRE_BREAK" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_TITLE" assignmentStatus="Conditional" id="BBK_TITLE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_TITLE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_UNIT" assignmentStatus="Conditional" id="BBK_UNIT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_UNIT" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_UNIT_MULT" assignmentStatus="Mandatory" id="BBK_UNIT_MULT">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_UNIT_MULT" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CLA_BBK_UNIT_MULT" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat minLength="1" textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_DECIMALS" assignmentStatus="Mandatory" id="BBK_DECIMALS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_DECIMALS" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CLA_BBK_DECIMALS" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat minLength="1" textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_GEN" assignmentStatus="Conditional" id="BBK_COMM_GEN">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_GEN" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_GEN_ENG" assignmentStatus="Conditional" id="BBK_COMM_GEN_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_GEN_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_SRC" assignmentStatus="Conditional" id="BBK_COMM_SRC">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_SRC" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_SRC_ENG" assignmentStatus="Conditional" id="BBK_COMM_SRC_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_SRC_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_TITLE_ENG" assignmentStatus="Conditional" id="BBK_TITLE_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_TITLE_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_METH" assignmentStatus="Conditional" id="BBK_COMM_METH">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_METH" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_COMM_METH_ENG" assignmentStatus="Conditional" id="BBK_COMM_METH_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_COMM_METH_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).DOKUHINWEIS" assignmentStatus="Conditional" id="DOKUHINWEIS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="DOKUHINWEIS" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).PUBLIKATION" assignmentStatus="Conditional" id="PUBLIKATION">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="PUBLIKATION" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).VERAENDERUNGSREIHE" assignmentStatus="Conditional" id="VERAENDERUNGSREIHE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="VERAENDERUNGSREIHE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).ANWAHLPOSITIONEN" assignmentStatus="Conditional" id="ANWAHLPOSITIONEN">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="ANWAHLPOSITIONEN" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).WEB_CATEGORY" assignmentStatus="Conditional" id="WEB_CATEGORY">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="WEB_CATEGORY" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_GRAPHTITLE" assignmentStatus="Conditional" id="BBK_GRAPHTITLE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_GRAPHTITLE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_GRAPHTITLE_ENG" assignmentStatus="Conditional" id="BBK_GRAPHTITLE_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_GRAPHTITLE_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_GRAPHPOS" assignmentStatus="Conditional" id="BBK_GRAPHPOS">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_GRAPHPOS" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_ID" assignmentStatus="Conditional" id="BBK_ID">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_ID" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_EURO" assignmentStatus="Conditional" id="BBK_EURO">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_EURO" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_DIFF_A" assignmentStatus="Conditional" id="BBK_DIFF_A">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_DIFF_A" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_DIFF" assignmentStatus="Conditional" id="BBK_DIFF">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_DIFF" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_DIFF_Y_A" assignmentStatus="Conditional" id="BBK_DIFF_Y_A">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_DIFF_Y_A" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_DIFF_Y" assignmentStatus="Conditional" id="BBK_DIFF_Y">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_DIFF_Y" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:PrimaryMeasure>
+                  <Ref id="OBS_VALUE"/>
+                </str:PrimaryMeasure>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_UMR" assignmentStatus="Conditional" id="BBK_UMR">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_UMR" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+            <str:Attribute urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataAttribute=BBK:BBK_BSBBK1(1.0).BBK_UMR_ENG" assignmentStatus="Conditional" id="BBK_UMR_ENG">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="BBK_UMR_ENG" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="String"/>
+              </str:LocalRepresentation>
+              <str:AttributeRelationship>
+                <str:Dimension>
+                  <Ref id="BBK_STD_FREQ"/>
+                </str:Dimension>
+                <str:Dimension>
+                  <Ref id="BBK_STD_BBK01_KEYS"/>
+                </str:Dimension>
+              </str:AttributeRelationship>
+            </str:Attribute>
+          </str:AttributeList>
+          <str:MeasureList urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=BBK:BBK_BSBBK1(1.0).MeasureDescriptor" id="MeasureDescriptor">
+            <str:PrimaryMeasure urn="urn:sdmx:org.sdmx.infomodel.datastructure.Measure=BBK:BBK_BSBBK1(1.0).OBS_VALUE" id="OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="CS_BBK_BSBBK1" package="conceptscheme" maintainableParentVersion="1.0" agencyID="BBK" id="OBS_VALUE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat minLength="1" textType="String"/>
+              </str:LocalRepresentation>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=HMS:DS_HMS_BISTA(1.0)" isExternalReference="false" agencyID="HMS" id="DS_HMS_BISTA" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Complete BISTA data</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=HMS:DS_HMS_BISTA(1.0).DimensionDescriptor" id="DimensionDescriptor">
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA(1.0).ACIP_DENOMINATION" id="ACIP_DENOMINATION" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="ACIP_DENOMINATION" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CL_BBK_ACIP_DENOMINATION" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA(1.0).BS_REF_SEC" id="BS_REF_SEC" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="BS_REF_SEC" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="BBK" id="CL_BBK_BS_REF_SEC" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA(1.0).BAID_DOM" id="BAID_DOM" position="3">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="BAID_DOM" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="HMS" id="CL_HMS_BAID_DOM" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA(1.0).FREQUENCY" id="FREQUENCY" position="4">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="FREQUENCY" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="ECB" id="CL_FREQ" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=HMS:DS_HMS_BISTA(1.0).TIME_PERIOD" id="TIME_PERIOD" position="5">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="DATE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:MeasureList urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=HMS:DS_HMS_BISTA(1.0).MeasureDescriptor" id="MeasureDescriptor">
+            <str:PrimaryMeasure urn="urn:sdmx:org.sdmx.infomodel.datastructure.Measure=HMS:DS_HMS_BISTA(1.0).OBS_VALUE" id="OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="OBS_VALUE" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+      <str:DataStructure urn="urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=HMS:DS_HMS_BISTA_INPUT(1.0)" isExternalReference="false" agencyID="HMS" id="DS_HMS_BISTA_INPUT" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">Input Data Structure Definition BISTA</com:Name>
+        <str:DataStructureComponents>
+          <str:DimensionList urn="urn:sdmx:org.sdmx.infomodel.datastructure.DimensionDescriptor=HMS:DS_HMS_BISTA_INPUT(1.0).DimensionDescriptor" id="DimensionDescriptor">
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA_INPUT(1.0).BAID_DOM" id="BAID_DOM" position="1">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="BAID_DOM" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:Enumeration>
+                  <Ref package="codelist" agencyID="HMS" id="CL_HMS_BAID_DOM" version="1.0" class="Codelist"/>
+                </str:Enumeration>
+                <str:EnumerationFormat textType="String"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:Dimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.Dimension=HMS:DS_HMS_BISTA_INPUT(1.0).YEAR" id="YEAR" position="2">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="YEAR" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat isSequence="false" textType="GregorianYear"/>
+              </str:LocalRepresentation>
+            </str:Dimension>
+            <str:TimeDimension urn="urn:sdmx:org.sdmx.infomodel.datastructure.TimeDimension=HMS:DS_HMS_BISTA_INPUT(1.0).TIME_PERIOD" id="TIME_PERIOD" position="3">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="DATE" class="Concept"/>
+              </str:ConceptIdentity>
+              <str:LocalRepresentation>
+                <str:TextFormat textType="ObservationalTimePeriod"/>
+              </str:LocalRepresentation>
+            </str:TimeDimension>
+          </str:DimensionList>
+          <str:MeasureList urn="urn:sdmx:org.sdmx.infomodel.datastructure.MeasureDescriptor=HMS:DS_HMS_BISTA_INPUT(1.0).MeasureDescriptor" id="MeasureDescriptor">
+            <str:PrimaryMeasure urn="urn:sdmx:org.sdmx.infomodel.datastructure.Measure=HMS:DS_HMS_BISTA_INPUT(1.0).OBS_VALUE" id="OBS_VALUE">
+              <str:ConceptIdentity>
+                <Ref maintainableParentID="HMS_CONCEPTS" package="conceptscheme" maintainableParentVersion="1.0" agencyID="HMS" id="OBS_VALUE" class="Concept"/>
+              </str:ConceptIdentity>
+            </str:PrimaryMeasure>
+          </str:MeasureList>
+        </str:DataStructureComponents>
+      </str:DataStructure>
+    </str:DataStructures>
+    <str:ProvisionAgreements>
+      <str:ProvisionAgreement urn="urn:sdmx:org.sdmx.infomodel.registry.ProvisionAgreement=HMS:DF_HMS_BBBK1_M_OU0081_HMS_HMS_IT(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BBBK1_M_OU0081_HMS_HMS_IT" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS IT Service for Credits to Banks (MFIs), total</com:Name>
+        <str:StructureUsage>
+          <Ref package="datastructure" agencyID="HMS" id="DF_HMS_BBBK1_M_OU0081" version="1.0" class="Dataflow"/>
+        </str:StructureUsage>
+        <str:DataProvider>
+          <Ref maintainableParentID="DATA_PROVIDERS" package="base" maintainableParentVersion="1.0" agencyID="HMS" id="HMS_IT" class="DataProvider"/>
+        </str:DataProvider>
+      </str:ProvisionAgreement>
+      <str:ProvisionAgreement urn="urn:sdmx:org.sdmx.infomodel.registry.ProvisionAgreement=HMS:DF_HMS_BISTA_HMS_HMS_IT(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BISTA_HMS_HMS_IT" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS IT Service for HMS BISTA Dataflow</com:Name>
+        <str:StructureUsage>
+          <Ref package="datastructure" agencyID="HMS" id="DF_HMS_BISTA" version="1.0" class="Dataflow"/>
+        </str:StructureUsage>
+        <str:DataProvider>
+          <Ref maintainableParentID="DATA_PROVIDERS" package="base" maintainableParentVersion="1.0" agencyID="HMS" id="HMS_IT" class="DataProvider"/>
+        </str:DataProvider>
+      </str:ProvisionAgreement>
+      <str:ProvisionAgreement urn="urn:sdmx:org.sdmx.infomodel.registry.ProvisionAgreement=HMS:DF_HMS_BISTA_INPUT_HMS_HMS_IT(1.0)" isExternalReference="false" agencyID="HMS" id="DF_HMS_BISTA_INPUT_HMS_HMS_IT" isFinal="false" version="1.0">
+        <com:Name xml:lang="en">HMS IT Service for HMS BISTA Input Dataflow</com:Name>
+        <str:StructureUsage>
+          <Ref package="datastructure" agencyID="HMS" id="DF_HMS_BISTA_INPUT" version="1.0" class="Dataflow"/>
+        </str:StructureUsage>
+        <str:DataProvider>
+          <Ref maintainableParentID="DATA_PROVIDERS" package="base" maintainableParentVersion="1.0" agencyID="HMS" id="HMS_IT" class="DataProvider"/>
+        </str:DataProvider>
+      </str:ProvisionAgreement>
+    </str:ProvisionAgreements></mes:Structures></mes:Structure>
