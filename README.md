@@ -1,3 +1,3 @@
-# HMS Starter Repo
+# HMS SDMX Lab Notebooks
 
-Dieses Repository enthält Standardressourcen, die beim Erzeugen neuer Repositories in der HMS Orgnisation vorhanden sein sollten.
+This respository contains examples (in the form of Jupyter notebooks) of how to interact with the SDMX Lab programmatically via the REST API.
