@@ -32,6 +32,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install jupyterlite-core[all]==0.3.0
         pip install jupyterlab~=4.0.5
+        pip install jupyterlite-pyodide-kernel
         
     - name: Build the JupyterLite site
       run: |
@@ -40,6 +41,8 @@ jobs:
         jupyter lite build --contents notebooks --output-dir dist
         echo "Build completed. Contents of dist:"
         ls -la dist/
+        echo "Checking kernels:"
+        ls -la dist/kernels/ || echo "No kernels directory found"
 
     - name: Setup Pages
       uses: actions/configure-pages@v4

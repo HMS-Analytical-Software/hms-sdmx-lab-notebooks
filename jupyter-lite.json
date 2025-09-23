@@ -3,6 +3,14 @@
   "LiteBuildConfig": {
     "contents": [
       "notebooks"
+    ],
+    "piplite_urls": [
+      "https://pypi.org/simple"
+    ]
+  },
+  "PipliteAddon": {
+    "piplite_urls": [
+      "https://pypi.org/simple"
     ]
   }
 }
