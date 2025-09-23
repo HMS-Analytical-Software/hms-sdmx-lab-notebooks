@@ -1,0 +1,21 @@
+{
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "appName": "HMS SDMX Lab Notebooks",
+    "appVersion": "0.1.0",
+    "appUrl": "./",
+    "faviconUrl": "https://jupyterlite.readthedocs.io/en/latest/_static/favicon.ico",
+    "fullAppName": "HMS SDMX Lab Notebooks - JupyterLite",
+    "fullMathjaxUrl": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "mathjaxUrl": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  },
+  "LiteBuildConfig": {
+    "contents": [
+      "content"
+    ],
+    "piplite_urls": [
+      "https://pypi.org/simple"
+    ]
+  }
+}
