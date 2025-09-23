@@ -1,6 +1,0 @@
-# JupyterLite-compatible requirements
-# These packages are available in Pyodide
-requests
-# Note: lxml is available in Pyodide as 'lxml'
-lxml
-# certifi is built into Pyodide's requests
