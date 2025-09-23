@@ -4,7 +4,7 @@ Interactive demonstrations of working with SDMX data and the FMR (Fusion Metadat
 
 ## 🚀 Try it Online
 
-**[[Launch JupyterLite →](https://hms-analytical-software.github.io/hms-sdmx-lab-notebooks/)](https://colab.research.google.com/github/HMS-Analytical-Software/hms-sdmx-lab-notebooks/blob/main/notebooks/fmr_workflow_demo_validate_sync_async.ipynb)**
+**[Launch Google Colab](https://colab.research.google.com/github/HMS-Analytical-Software/hms-sdmx-lab-notebooks/blob/main/notebooks/fmr_workflow_demo_validate_sync_async.ipynb)**
 
 Click the link above to run these notebooks directly in your browser - no installation required!
 
