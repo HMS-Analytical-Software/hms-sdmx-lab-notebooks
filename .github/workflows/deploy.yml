@@ -35,7 +35,7 @@ jobs:
         
     - name: Build the JupyterLite site
       run: |
-        jupyter lite build --contents content --output-dir dist
+        jupyter lite build --contents content --output-dir dist --base-url /hms-sdmx-lab-notebooks/
         ls -la dist/
         
     - name: Create fallback index if build failed

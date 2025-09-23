@@ -3,7 +3,7 @@
   "jupyter-config-data": {
     "appName": "HMS SDMX Lab Notebooks",
     "appVersion": "0.1.0",
-    "appUrl": "./",
+    "appUrl": "/hms-sdmx-lab-notebooks/",
     "faviconUrl": "https://jupyterlite.readthedocs.io/en/latest/_static/favicon.ico",
     "fullAppName": "HMS SDMX Lab Notebooks - JupyterLite",
     "fullMathjaxUrl": "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
