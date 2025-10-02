@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "id": "PID001",
+        "test": false,
+        "schema": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/master/metadata-message/tools/schemas/2.0.0/sdmx-json-metadata-schema.json",
+        "prepared": "2025-09-27T20:51:26.830614Z",
+        "contentLanguages": [
+            "en"
+        ],
+        "sender": {
+            "id": "FusionRegistry"
+        }
+    },
+    "data": {
+        "metadataSets": [
+            {               
+                "id": "PID001_DP_MDF",
+                "name": "Configuration for PID001 test process for DF DP_MDF(1.0)",
+                "names": {
+                    "en": "Configuration for PID001 test process for DF DP_MDF(1.0)"
+                },
+                "version": "1.0",
+                "agencyID": "BIS.SDMXIO",
+                "isExternalReference": false,
+                "metadataflow": "urn:sdmx:org.sdmx.infomodel.metadatastructure.Metadataflow=BIS.SDMXIO:DP_MDF(1.0)",
+                "targets": [
+                    "urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=BIS.SDMXIO:DF_ID2401_SRC(1.0)"
+                ],
+                "attributes": [
+                    {
+                        "id": "DP_MM",
+                        "value": "M"
+                    },
+                    {
+                        "id": "DP_VM",
+                        "value": "F"
+                    },
+                    {
+                        "id": "DP_MAP_STRUCTURE",
+                        "value": "urn:sdmx:org.sdmx.infomodel.structuremapping.StructureMap=BIS.SDMXIO:SM_1TOMANY_OPTA(1.0)"
+                    }
+                ]
+            }
+        ]
+    }
+}

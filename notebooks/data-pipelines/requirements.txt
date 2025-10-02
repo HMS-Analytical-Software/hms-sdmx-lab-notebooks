@@ -1,0 +1,10 @@
+requests
+lxml
+pysdmx[all]
+pandas
+pathlib
+psutil
+pyzmq
+tornado
+traitlets
+urllib3
