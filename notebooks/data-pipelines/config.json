@@ -1,0 +1,13 @@
+{
+  "TEST":  true,
+  "AGENCY": "BIS",
+  "FLOWID": "WS_DSR",
+  "ENDPOINT":  "https://stats.bis.org/api/v2",
+  "OUT_DIR": "./data",
+  "IMPORT_PATH_DATA": "./imports/data",
+  "IMPORT_PATH_DF": "./imports/dataflows",
+  "AUTH_URL": "https://dataexplorer.statisticsmaldives.gov.mv/transfer/1.2/auth/token",
+  "API_KEY": "your_api_key",
+  "DB_USER": "myuser",
+  "DB_PASS": "mypassword"
+}
